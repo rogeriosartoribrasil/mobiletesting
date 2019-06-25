@@ -1,0 +1,550 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2019-06-25 12:33:05</RunStartTime>
+        <Timezone>E. South America Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+        <CustomFields name="Mobile Center Server:" value="http://192.168.0.37:8080"/>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2019-06-25 12:33:05</StartTime>
+            <Result>Failed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:23.185]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>ZZSARTORRO01</HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>40840</TotalMemory>
+                <Locale><![CDATA[pt-BR]]></Locale>
+                <Timezone><![CDATA[E. South America Standard Time]]></Timezone>
+                <User>sartorro</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.52]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.caixa.testes]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2019-06-25 12:33:05</StartTime>
+                <Result>Failed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:22.849]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.caixa.testes.LeanFtTest]]></Name>
+                    <Description/>
+                    <StartTime>2019-06-25 12:33:05</StartTime>
+                    <Result>Failed</Result>
+                    <Links/>
+                    <Duration><![CDATA[00:00:22.849]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>loginTest</Name>
+                        <Description/>
+                        <StartTime>2019-06-25 12:33:05</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration><![CDATA[00:00:00.369]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.Lock]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>7783bdcdc3d874df4cd0d15cf085fe89814e38eb</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>7783bdcdc3d874df4cd0d15cf085fe89814e38eb</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>iPhone de Rogerio</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>iPhone 7 Plus</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>Apple</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>IOS</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>12.1.4</td></tr></table>]]></Description>
+                            <StartTime>2019-06-25 12:33:05</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>7783bdcdc3d874df4cd0d15cf085fe89814e38eb</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>7783bdcdc3d874df4cd0d15cf085fe89814e38eb</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>iPhone de Rogerio</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>iPhone 7 Plus</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>Apple</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>IOS</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>12.1.4</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Device.<span class='emphasis'>Lock</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Device.Lock]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>menuComoAtualizarPessoaFisica</Name>
+                        <Description/>
+                        <StartTime>2019-06-25 12:33:06</StartTime>
+                        <Result>Failed</Result>
+                        <ErrorText><![CDATA[<pre>junit.framework.ComparisonFailure: Verifica&#231;&#227;o ocorrida! expected:&lt;[]Pessoa F&#237;sica&gt; but was:&lt;[
+]Pessoa F&#237;sica&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at com.caixa.gov.ApplicationModel.CaixaCartoesModel.comoAtualizarTelefonePessoaFisica(CaixaCartoesModel.java:100)
+	at com.caixa.testes.LeanFtTest.menuComoAtualizarPessoaFisica(LeanFtTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</pre>]]></ErrorText>
+                        <Links/>
+                        <Duration><![CDATA[00:00:22.472]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.Lock]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>RQ8M406AMNZ</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>RQ8M406AMNZ</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>SM-G975F</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>SM-G975F</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>samsung</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>ANDROID</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>9</td></tr></table>]]></Description>
+                            <StartTime>2019-06-25 12:33:06</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>RQ8M406AMNZ</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>RQ8M406AMNZ</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>SM-G975F</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>SM-G975F</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>samsung</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>ANDROID</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>9</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Device.<span class='emphasis'>Lock</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Device.Lock]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[App.launch]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-25 12:33:16</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:01.697]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[App]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>launch</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[identifier]]></Name>
+                                                <Value><![CDATA["br.gov.caixa.cartoes"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[isPackaged]]></Name>
+                                                <Value><![CDATA[true]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Application</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[App]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Open navigation drawer.tap]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-25 12:33:18</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.491]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[App]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Button</Type>
+                                                <Name><![CDATA[Open navigation drawer]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>tap</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[className]]></Name>
+                                                <Value><![CDATA["ImageButton"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[android.widget.ImageButton]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[mobileCenterIndex]]></Name>
+                                                <Value><![CDATA[0]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[accessibilityId]]></Name>
+                                                <Value><![CDATA[Open navigation drawer]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[App]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Button</Type>
+                                                    <Name><![CDATA[Open navigation drawer]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Como Atualizar o Telefone.tap]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-25 12:33:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.665]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[App]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Label</Type>
+                                                <Name><![CDATA[Como Atualizar o Telefone]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>tap</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[className]]></Name>
+                                                <Value><![CDATA["Label"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[resourceId]]></Name>
+                                                <Value><![CDATA[br.gov.caixa.cartoes:id/textView]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[Como Atualizar o Telefone]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[android.widget.TextView]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[mobileCenterIndex]]></Name>
+                                                <Value><![CDATA[2]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Label</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[App]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Label</Type>
+                                                    <Name><![CDATA[Como Atualizar o Telefone]]></Name>
+                                                    <IconKey>Label</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[PESSOA FÍSICA.tap]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-25 12:33:25</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.222]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[App]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.UiObject</Type>
+                                                <Name><![CDATA[PESSOA FÍSICA]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>tap</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[className]]></Name>
+                                                <Value><![CDATA["RadioButton"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[resourceId]]></Name>
+                                                <Value><![CDATA[br.gov.caixa.cartoes:id/tabPF]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[PESSOA FÍSICA]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[android.widget.RadioButton]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[mobileCenterIndex]]></Name>
+                                                <Value><![CDATA[0]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>UiObject</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[App]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.UiObject</Type>
+                                                    <Name><![CDATA[PESSOA FÍSICA]]></Name>
+                                                    <IconKey>UiObject</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="RunTimeError">
+                        <Data>
+                            <Name><![CDATA[Verificação ocorrida! expected:<[]Pessoa Física> but was:<[
+]Pessoa Física>]]></Name>
+                            <Description/>
+                            <StartTime>2019-06-25 12:33:28</StartTime>
+                            <Result>Failed</Result>
+                            <ErrorText><![CDATA[<pre>junit.framework.ComparisonFailure: Verifica&#231;&#227;o ocorrida! expected:&lt;[]Pessoa F&#237;sica&gt; but was:&lt;[
+]Pessoa F&#237;sica&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at com.caixa.gov.ApplicationModel.CaixaCartoesModel.comoAtualizarTelefonePessoaFisica(CaixaCartoesModel.java:100)
+	at com.caixa.testes.LeanFtTest.menuComoAtualizarPessoaFisica(LeanFtTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+</pre>]]></ErrorText>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <IconKey>RunTimeError</IconKey>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
